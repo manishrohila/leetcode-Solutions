@@ -2,7 +2,7 @@ class Solution {
     private:
    
 public:
-     bool isSafe(int row ,int col, vector<vector<char>>& board,char val)
+     bool isSafe(int& row ,int& col, vector<vector<char>>& board,char& val)
     {
         for(int i = 0;i<9;i++)
         {
